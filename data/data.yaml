@@ -1,0 +1,5 @@
+train: C:/Users/PC/Desktop/dataset/data/train/images
+val: C:/Users/PC/Desktop/dataset/data/test/images
+
+nc: 1
+names: ['licence plate']
