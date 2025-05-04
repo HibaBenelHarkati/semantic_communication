@@ -33,7 +33,7 @@ for i in range(len(results)):
 
                 #=======================================
         if len(lignes) < 2:
-            print(f"⚠️ Less than 2 boxes for {chemin}")
+            print(f"⚠!!! Less than 2 boxes for {chemin}")
             continue
         if len(lignes) >= 2:
             boxes_left=[]     #cette liste contient les indices des boxes qu on va garder => c est par c est indice qu on peut acceder a les lignes de la matrice pour recuperer les w,l
@@ -66,7 +66,7 @@ for i in range(len(results)):
                     os.remove(labels_path)
 
         else:
-            print(f"⚠️ Moins de 2 boxes pour {img.path}")
+            print(f"Moins de 2 boxes pour {img.path}")
             continue  # Passe aussi à l'image suivante si < 2 boxes
 
 
