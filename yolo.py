@@ -2,7 +2,7 @@ import cv2
 from  ultralytics import YOLO
 import os
 
-#1- model=YOLO("yolov8s.pt")  #loading the yolo object model When you run this code for the first time, it will download the yolov8m.pt file from the Ultralytics server to the current folder. Then it will construct the model object.
+#1- model=YOLO("yolov8s.pt")  #loading the yolo object model When you run this code for the first time, it will download the yolov8m.pt file from the Ultralytics server to the current folder. Then it will construct the model object
 #model.train(data="./data/data.yaml", epochs=8)
 
 
